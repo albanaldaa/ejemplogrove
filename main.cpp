@@ -16,7 +16,9 @@ Timer cronometro;
             cronometro.start();
         }       
         cronometro.stop();
+    float tiempo = cronometro.read();
 
-     pantalla.print(cronometro.read());
+      
+     pantalla.print("Tiempo : %.2f\n" tiempo);
  }
 
