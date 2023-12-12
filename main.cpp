@@ -4,7 +4,7 @@
 
 
 Grove_LCD_RGB_Backlight pantalla(PB_8,PB_9);
-DigitalOut led(D13);  
+DigitalOut led(D12);  
 DigitalIn boton (D4);
 Timer cronometro;
 
